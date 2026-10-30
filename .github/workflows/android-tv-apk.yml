@@ -27,7 +27,7 @@ jobs:
   build_android_tv_apk:
     runs-on: ubuntu-latest
     env:
-      KVIDEO_URL: ${{ inputs.kvideo_url || '' }}
+      KVIDEO_URL: "https://tv.yanglin.eu.cc"
     defaults:
       run:
         working-directory: android-tv
